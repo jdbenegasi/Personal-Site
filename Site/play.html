@@ -1,0 +1,29 @@
+<!Doctype: html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script>
+			function rollDice(){
+				var die1 = document.getElementById("die1");
+				var die2 = document.getElementById("die2");
+				var d1 = Math.floor(Math.random() * 10) +1;
+				var d2 = Math.floor(Math.random() * 10) +1;
+				die1.innerHTML = d1;
+				die2.innerHTML = d2;
+			}
+		
+		
+		</script>
+	</head>
+	
+	<body>
+		<div id="die1"></div>
+		<div id="die2"></div>
+		<button onclick="rollDice()">Roll The Dice!</button>
+	
+	</body>
+
+
+
+
+</html>
