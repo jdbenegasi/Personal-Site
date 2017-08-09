@@ -1,19 +1,30 @@
 <!Doctype: html>
 <html>
 	<head>
-	
-	
+		<link rel=stylesheet type="text/css" href="styles.css">
+  		<link rel="stylesheet" type="text/css" href="queries.css">
 	</head>
 	<body>
+		<header> <div class="nav">
+                <a class="button" href="index.html">Home</a>
+                <a class="button" href="https://github.com/jdbenegasi">My GitHub</a>
+                <a class="button" href="#">Contact</a>
+                <a class="button" href="aboutme.html">About Me</a>
+				<a class="button" href="play.html">Roll Dice!</a>
+            </div></header>
 		<form class="contactus" action="/action_page.php">
 			<label for="fname"> First Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Name">
+			<input type="text" id="fname" name="firstname" placeholder="First Name">
+			<br>
 			<label for="lname">Last Name</label>
 			<input type="text" id="lname" name="lastname" placeholder="Last Name">
+			<br>
 			<label for="mail">Email</label>
 			<input type="text"id="mail" name="email" placeholder="example@mail.com">
-			<label for="message">Message</label>
-			<textarea id="message" name="yourmessage" style="height: 200px"></textarea>
+			<br>
+			<label for="message"></label>
+			<textarea id="message" name="yourmessage" placeholder="write something here" style="height: 200px"></textarea>
+			<br>
 			<input type="submit" value="Submit">
 		
 		
